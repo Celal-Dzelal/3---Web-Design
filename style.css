@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  color: white;
+}
+nav {
+  margin: 10px;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  font-family: "Knewave";
+}
+header {
+  background-image: url(./background.jpg);
+  height: 550px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  align-content: center;
+}
+h3 {
+  /* text-decoration: underline 2px #ff0078; */
+  padding-bottom: 3px;
+  margin: 40px 0 40px 0;
+  font-size: 1rem;
+  font-family: "Lucida Sans";
+}
+h1 {
+  margin-bottom: 40px;
+  font-family: "Knewave";
+  letter-spacing: 3px;
+}
+header p {
+  margin-bottom: 40px;
+  font-size: 1rem;
+}
+input {
+  border-radius: 10px;
+  padding: 5px 10px;
+  background-color: #ff0078;
+  border: none;
+  color: white;
+  font-family: "Lucida Sans";
+}
+footer {
+  display: inline-flex;
+  text-align: center;
+  padding: 20px;
+}
+footer div {
+  padding: 0 15px 0 15px;
+  margin-top: 10px;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+footer .music,
+.user,
+.video {
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 2rem;
+}
+footer .music {
+  background-color: #ff0078;
+}
+footer .user {
+  background-color: #f6f034;
+  padding: 10px 15px;
+}
+footer .video {
+  background-color: #7ed22a;
+}
+footer p {
+  margin-top: 30px;
+}
+header h3 hr {
+  background-color: #ff0078;
+  border: none;
+  width: 150px;
+  height: 1.5px;
+  justify-content: center;
+  margin: 5px auto;
+}
